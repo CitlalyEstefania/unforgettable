@@ -1,5 +1,5 @@
 <?php
-include 'partials/header.php';
+include '../partials/header.php';
 
 if (isset($_GET['id'])) {
     $id = filter_var($_GET['id'], FILTER_SANITIZE_NUMBER_INT);

@@ -1,5 +1,5 @@
 <?php
-require 'config/database.php';
+require __DIR__ . '/../config/database.php';
 
 if(isset($_POST['submit'])){
     $id = filter_var($_SESSION['user-id'], FILTER_SANITIZE_STRING);

@@ -1,5 +1,5 @@
 <?php
-include 'partials/header.php';
+include '../partials/header.php';
 
 // fetch categories from database
 $query = "SELECT * FROM categories";

@@ -1,5 +1,5 @@
 <?php
-require 'config/database.php';
+require __DIR__ . '/../config/database.php';
 
 // make sure edit post button was clicked
 if (isset($_POST['submit'])) {

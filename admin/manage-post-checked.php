@@ -1,5 +1,5 @@
 <?php
-include 'partials/header.php';
+include '../partials/header.php';
 
 // fetch current user's posts from database
 $query = "SELECT id, title, author_id FROM posts WHERE checked=0  ORDER BY id DESC";

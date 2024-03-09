@@ -1,7 +1,7 @@
 <?php
 session_start();
-define('ROOT_URL', 'http://localhost/blog/');
+define('ROOT_URL', 'http://localhost/unforgettable/');
 define('DB_HOST', 'localhost');
-define('DB_USER', 'egator');
-define('DB_PASS', 'admin1234');
-define('DB_NAME', 'blog');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'unforgettable');

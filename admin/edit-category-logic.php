@@ -1,5 +1,5 @@
 <?php
-require 'config/database.php';
+require __DIR__ . '/../config/database.php';
 
 if (isset($_POST['submit'])) {
     $id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);

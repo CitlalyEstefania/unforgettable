@@ -1,5 +1,5 @@
 <?php
-include 'partials/header.php';
+include '../partials/header.php';
 
 // get back form data if invalid
 $title = $_SESSION['add-category-data']['title'] ?? null;

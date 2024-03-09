@@ -1,5 +1,5 @@
 <?php
-include 'partials/header.php';
+include '../partials/header.php';
 
 // fetch current user's posts from database
 $current_user_id = $_SESSION['user-id'];

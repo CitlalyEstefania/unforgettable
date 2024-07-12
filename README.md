@@ -18,7 +18,7 @@ This is a web blog mainly for the purpose of sharing things about fashion. But i
 
 - Clone the project to your local machine
 ```
-git clone git@github.com:CitlalyEstefania/Proyecto-Integrador-Segundo-Semestre.git
+git clone git@github.com:CitlalyEstefania/unforgettable.git
 ```
 
 - Install the dependencies
